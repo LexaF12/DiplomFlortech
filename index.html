@@ -228,9 +228,111 @@
         </nav>
         <p class="footer__copyright">© 2024. Flortech</p>
     </footer>
+<form name="inquiry" method="post" class="form" onsubmit="return CheckInquiryForm(this)">
+
+        <br><br>
+
+        <table class="InfoTable" cellpadding="5" cellspacing="1" align="center" width="560">
+            <tbody>
+                <tr>
+                    <th colspan="2" height="30" style="font-size:12px;">Формуляр запроса</th>
+                </tr>
+
+                <tr>
+                    <td class="tdf" width="120">
+                        &nbsp;<b> Компания</b>*</td>
+                    <td class="tdf" width="120">
+                        <input class="RegField" name="frmCompany" type="Text" size="60" maxlength="64" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tdf">&nbsp;<b>Город</b>*
+                    </td>
+                    <td class="tdf">
+                        <input class="RegField" name="frmCity" type="Text" size="60" maxlength="64" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tdf">&nbsp;<b>Улица, дом</b>*</td>
+                    <td class="tdf">
+                        <input class="RegField" name="frmAddress" type="Text" size="60" maxlength="64" value="">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="tdf">&nbsp;<b>Индекс</b>*
+                    </td>
+                    <td class="tdf">
+                        <input class="RegField" name="frmIndex" type="Text" size="60" maxlength="64" value="">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="tdf">
+                        &nbsp;<b>Телефон</b>*</td>
+                    <td class="tdf">
+                        <input class="RegField" name="frmPhone" type="Text" size="60" maxlength="64" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tdf">&nbsp;<b>Контактное лицо</b>*</td>
+                    <td class="tdf">
+                        <input class="RegField" name="frmName" type="Text" size="60" maxlength="64" value="">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="tdf">
+                        &nbsp;<b>Строительный объект</b>*</td>
+                    <td class="tdf">
+                        <input class="RegField" name="frmObject" type="Text" size="60" maxlength="64" value="">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="tdf">
+                        &nbsp;<b>Площадь*</b>*,
+                        м<sup>2</sup></td>
+                    <td class="tdf">
+                        <input class="RegField" name="frmArea" type="Text" size="60" maxlength="255" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tdf">&nbsp;<b> Улица, дом</b>*</td>
+                    <td class="tdf">
+                        <input class="RegField" name="frmObjectAddress" type="Text" size="60" maxlength="255" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tdf">&nbsp;<b>Город, индекс</b>*</td>
+                    <td class="tdf">
+                        <input class="RegField" name="frmObjectCity" type="Text" size="60" maxlength="255" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tdf">
+                        &nbsp;<b>Комментарии</b></td>
+                    <td class="tdf">
+                        <textarea class="List" name="frmComment" rows="8" style="width:374px;"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tdf" colspan="2" id="con">
+    </form>
 
     <script>
-        document.querySelectorAll('.image-container img').forEach(img =>{
+        document.querySelectorAll('.image-container img').forEach(img => {
             img.onclick = () => {
                 document.querySelector('.popup').style.display = 'block';
                 document.querySelector('.popup img').src = img.getAttribute('src');
@@ -244,4 +346,5 @@
     </script>
 </body>
 
+</html>
 </html>
