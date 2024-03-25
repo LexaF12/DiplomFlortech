@@ -1,7 +1,7 @@
 # Проект Флортек: Стяжка полов
 Ссылка на проект:
 
-https://lexaf12.github.io/russian-travel/
+https://lexaf12.github.io/DiplomFlortech
 
 В работе использовались такие технологии как:
 
