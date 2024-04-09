@@ -31,15 +31,6 @@
         margin: 64px auto;
     }
 }
-
-:root {
-    --white: white;
-    --gradient: linear-gradient(-45deg, #ffa600 0%, #ff5e03 50%);
-    --form: rgb(19, 19, 19);
-    --border-radius: 4px;
-    --form-width: 500px;
-    --form-mob-width: 320px;
-  }
   
   * {
     padding: 0;
